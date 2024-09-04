@@ -10,7 +10,7 @@ class OpsUtil(ServerUtil):
             self.mysqlConfig = dbConfig
         if sqlType == 'pgresql':
             self.pgsql = dbConfig
-
+        #Checking the content in the file path
         if workers:
             MAX_WORKERS = workers
 
